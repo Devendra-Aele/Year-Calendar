@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+*{
+
+    box-sizing: border-box;
+    margin: 0px ;
+    padding: 0px;
+}
+.calendar .calendar-header .year-title{
+font-size: 50px;
+height: 90px;
+color:rgb(167, 24, 14);
+font-family: 'Pushster', cursive;
+}
+
+.calendar table {
+    width: 200px;
+}
+
+.calendar .months-container{
+    display: flex;
+    justify-content: center;
+}
+
+.calendar .months-container .month-container.month-3{
+    margin: auto ;
+    margin-bottom: 30px;
+    width: 290px;
+    height: 270px;
+    background: rgb(245, 240, 240);
+    box-shadow: 5px 5px 10px 0px rgb(192, 178, 178);
+}
+
+.calendar table.month td.day .day-content:hover{
+    background: rgb(202, 3, 3);
+    color: white;
+}
+
+.calendar table.month td.day .day-content {
+    padding: 5px;
+    margin: 3px;
+    font-size: 16px;
+}
+
+.calendar table.month th.month-title{
+font-size: 30px;
+font-family: 'Pushster', cursive;
+color: rgb(167, 24, 14);
+margin: 10px 0px;
+}
